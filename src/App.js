@@ -1,10 +1,13 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import NotFound from "./pages/NotFound";
-import { GithubContext, GithubProvider } from "./context/github/GithubContext";
+import Navbar from "./components/Navbar.js";
+import Footer from "./components/Footer.js";
+import Home from "./pages/Home.js";
+import About from "./pages/About.js";
+import NotFound from "./pages/NotFound.js";
+import {
+  GithubContext,
+  GithubProvider,
+} from "./context/github/GithubContext.js";
 
 function App() {
   return (
